@@ -13,13 +13,7 @@ Decentralized P2P escrow platform with fair random arbitration on Supra L1 block
 ```
 trustescrow-supra/
 ├── contract/          # Move smart contracts (Supra L1)
-│   ├── Move.toml
-│   └── sources/
-│       └── escrow.move
 ├── frontend/          # React web app
-│   ├── src/
-│   ├── public/
-│   └── package.json
 └── docs/             # Documentation
 ```
 
@@ -34,21 +28,16 @@ trustescrow-supra/
 
 - **Blockchain**: Supra L1 (MoveVM)
 - **Smart Contract**: Move language
-- **Frontend**: React + Vite + Tailwind
+- **Frontend**: React + Vite
 - **Hosting**: Cloudflare Pages
 - **Random Oracle**: Supra dVRF
 
 ## 📦 Installation
 
-### Prerequisites
-- Node.js 20+
-- Supra CLI
-- Git
-
 ### Smart Contract
 ```bash
 cd contract
-# Coming soon: deployment instructions
+# Install Supra CLI and deploy
 ```
 
 ### Frontend
@@ -58,35 +47,18 @@ npm install
 npm run dev
 ```
 
-Open http://localhost:5173
-
 ## 🌐 Live Demo
 
-Coming soon on `project-block.com`!
-
-## 🔮 Roadmap
-
-- [x] Project setup
-- [x] Basic smart contract structure
-- [x] Frontend scaffolding
-- [ ] Complete dVRF integration
-- [ ] Coin/payment handling
-- [ ] Frontend UI implementation
-- [ ] Testnet deployment
-- [ ] Mainnet launch
+Coming soon on `project-block` domain!
 
 ## 📄 License
 
-MIT License - see [LICENSE](LICENSE) file
+MIT License
 
 ## 🤝 Contributing
 
 Contributions welcome! Open an issue or PR.
 
-## 📧 Contact
-
-Built for the Supra community 💜
-
 ---
 
-**⚠️ Disclaimer**: This is experimental software. Use at your own risk.
+Built with ❤️ for the Supra community
