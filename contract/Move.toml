@@ -1,0 +1,17 @@
+[package]
+name = 'TrustEscrow'
+version = '1.0.0'
+
+[dependencies.SupraFramework]
+git = 'https://github.com/Entropy-Foundation/supra-framework.git'
+rev = 'mainnet'
+subdir = 'framework'
+
+[dependencies.SupraVrf]
+git = 'https://github.com/Entropy-Foundation/vrf-interface.git'
+subdir = 'supra/mainnet'
+rev = 'master'
+
+[addresses]
+trustescrow = "_"
+supra_framework = "0x1"
